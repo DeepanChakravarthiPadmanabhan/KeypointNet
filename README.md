@@ -1,13 +1,26 @@
-# keypointnet
-This is an reimplementation of the keypoint network proposed in "Discovery of
+# KeypointNet
+
+This is a re-implementation of the keypoint network proposed in "Discovery of
 Latent 3D Keypoints via End-to-end Geometric Reasoning
 [[pdf](https://arxiv.org/pdf/1807.03146.pdf)]". The keypointnet predicts a consistent set of keypoint given a single image. The predicted keypoint can then be used for various downstream tasks such as detection and pose estimation.  
 
-#### Network Output for planes
+#### Network output for planes
 
 ![Detected keypoints](https://github.com/swaroop1904/keypointnet/blob/master/output_images/160.png "Logo Title Text 1") ![Detected keypoints](https://github.com/swaroop1904/keypointnet/blob/master/output_images/200.png "Logo Title Text 1") ![Detected keypoints](https://github.com/swaroop1904/keypointnet/blob/master/output_images/201.png "Logo Title Text 1") ![Detected keypoints](https://github.com/swaroop1904/keypointnet/blob/master/output_images/211.png "Logo Title Text 1")
 
 As seen in the images, the network is able to consistently detect the keypoint even with out of plane rotations. 
+
+#### Team members
+
+[Deepan Chakravarthi Padmanabhan](https://github.com/DeepanChakravarthiPadmanabhan)
+
+[Kishaan Jeeveswaran](https://github.com/Kishaan)
+
+[Swaroop Bhandary K](https://github.com/swaroop1904)
+
+
+
+#### Reference
 
 ```
 @inproceedings{suwajanakorn2018discovery,
@@ -17,7 +30,7 @@ As seen in the images, the network is able to consistently detect the keypoint e
   pages={2059--2070},
   year={2018}
 }
-
 ```
+#### License
 
-The functions defined in this repo has been either adapted from or directly taken (Transformer class, blender render script and few of the loss functions) from https://github.com/tensorflow/models/tree/master/research/keypointnet and follows the license under the original repo. 
+The functions defined in this repository have been either adapted from or directly taken (Transformer class, blender render script and few of the loss functions) from https://github.com/tensorflow/models/tree/master/research/keypointnet following the license under the original repository. 
